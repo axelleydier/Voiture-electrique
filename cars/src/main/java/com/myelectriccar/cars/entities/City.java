@@ -11,7 +11,7 @@ public class City {
     private Integer id;
 
     @Column(unique = true, length = 200, nullable = false)
-    private String model;
+    private String name;
 
     @Column(nullable = false)
     private Integer postalCode;

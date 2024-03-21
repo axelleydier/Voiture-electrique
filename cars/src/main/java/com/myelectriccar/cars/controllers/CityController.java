@@ -10,6 +10,4 @@ public class CityController {
     public CityController(CityService cityService) {
         this.cityService = cityService;
     }
-
-
 }
